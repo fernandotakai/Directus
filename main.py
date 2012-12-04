@@ -13,7 +13,8 @@ from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
 
-SERVER_URL = "http://localhost:8085/sabnzbd/api?mode=queue&output=json&apikey=750cceb52eee244d7a44a8a412d5f538"
+API_KEY = "750cceb52eee244d7a44a8a412d5f538"
+SERVER_URL = "http://localhost:8085/sabnzbd/api?mode=queue&output=json&apikey=%s" % API_KEY
 
 class Application(tornado.web.Application):
     def __init__(self):
