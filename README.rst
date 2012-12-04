@@ -8,7 +8,7 @@ For it, you need to install tornado (pip install tornado) and run python main.py
 
 Screenshot
 ----------
-![](http://i.imgur.com/TYfhy.png "Screenshot")
+![Screenshot](http://i.imgur.com/TYfhy.png)
 
 License
 -------
