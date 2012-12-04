@@ -6,6 +6,10 @@ For now, it assumes that SABnzbd is running on the same machine as the server, b
 
 For it, you need to install tornado (pip install tornado) and run python main.py.
 
+Screenshot
+----------
+![](http://i.imgur.com/TYfhy.png "Screenshot")
+
 License
 -------
 BSD and that's it
